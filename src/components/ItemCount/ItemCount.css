@@ -1,0 +1,42 @@
+.Counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .Controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 05px;
+  }
+  
+  .Button:hover {
+    background-color: #555;
+  }
+  
+  .Number {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+
+  .Number {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .Number {
+      font-size: 16px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    }
+  }
